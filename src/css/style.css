@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.line {
+    height: 29px;
+    text-align: center;
+    background: #000;
+    color: rgba(251, 251, 251, 1);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 7px;
+    display: flex;
+    gap: 32px;
+}
+
+.menu_link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.header-icons {
+    margin-top: 7px;
+}
+
+.fs {
+    background: url(../images/fs-bg.jpg) center center/cover no-repeat;
+    min-height: 810px;
+    display: flex;
+    justify-content: center;
+}
+
+.h1-fs {
+    font-size: 44px;
+    line-height: 51px;
+    margin-top: 53px;
+}
+
+.h1-subtitle {
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.fs-btn {
+    margin-top: 20px;
+    margin-right: 18px;
+    height: 33px;
+    width: 201px;
+    left: 0px;
+    top: 0px;
+    border-radius: 35px;
+    background: rgba(255, 74, 50, 1);
+    color: #fff;
+}
+
+.fs-line {
+    margin-top: 1px;
+    background: #000;
+}
+
+.fs-line {
+    background: #000;
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fs-line__icons {
+    padding-top: 12px;
+    margin-right: 122px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2__second-title {
+    padding-top: 45px;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.second-section-text {
+    line-height: 19px;
+    width: 685px;
+    margin-left: 230px;
+    line-height: 19px;
+}
+
+.electric-skateboards {
+    background: url(../images/electric-skateboards-bg.jpg) center center/cover no-repeat;
+    height: 736px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2__electric-skate {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 51px;
+}
+
+.electric-skate__text {
+    width: 488px;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.btn__electric-skate {
+    height: 33px;
+    width: 201px;
+    border-radius: 35px;
+    background: rgba(255, 74, 50, 1);
+}
+
+.boosted-rev {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-bottom: 45px;
+}
+
+.rev-img-2 {
+    padding-left: 22px;
+}
+
+.h2__boosted-rev {
+    position: absolute;
+    margin: -346px 931px;
+}
+
+.text__boosted-rev {
+    position: absolute;
+    width: 339px;
+    margin: -277px 826px;
+}
+
+.boosted-rev__btn {
+    position: absolute;
+    width: 101px;
+    height: 33px;
+    border-radius: 35px;
+    background: rgba(255, 74, 50, 1);
+    right: 360px;
+    margin-top: -79px;
+}
+
+.shop-busted .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.skateboards__video {
+    display: flex;
+    justify-content: center;
+    margin: 55px 0 64px 0;
+}
+
+.h2-boards__accsessories {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.boards__accsessories .accsessories {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 66px;
+}
+
+.p__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(255, 74, 50, 1);
+}
+
+.p__price {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.orange {
+    color: rgba(255, 33, 33, 1);
+}
+
+.grey {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.section-line {
+    height: 66px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 0px 10px 0px rgba(41, 44, 61, 0.34);
+    margin-bottom: 28px;
+}
+
+.section__benefits {
+    padding: 35px 0 75px 0;
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.section__benefits .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.h3__benefits-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.p__benefits-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.footer {
+    background: rgba(247, 247, 247, 1);
+}
+
+.footer .container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    padding-bottom: 100px;
+    margin-left: 130px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-link-title-text {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer-links-addres {
+    margin-right: 130px;
+}
+
+.footer-link-title {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-link-addres-subtext {
+    padding-top: 12px;
+}
+
+.footer__down-line .container {
+    width: 1200px;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons {
+    padding-right: 5px;
+}
